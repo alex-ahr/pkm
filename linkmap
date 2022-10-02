@@ -1,2 +1,2 @@
-/templates/post/index.{html} /templates/post/
 /index.html /
+/templates/post/$1.{html} /templates/post/$1
