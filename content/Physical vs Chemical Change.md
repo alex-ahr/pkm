@@ -1,0 +1,26 @@
+---
+TAGS:
+  - TYPE/compound
+  - STATUS/good
+---
+- [[Physical Change]]:
+	- Change in [[Physical Properties]] (alteration in size, shape, or [[State Of Matter|State]])
+	- No change in [[Chemical Properties]]
+	- ex:
+		- [[Freezing]] <---> [[Melting]]
+		- [[Boiling]] <---> [[Condensating]]
+		- Grinding, cutting
+- [[Chemical Change]]:
+	- Alteration in [[Chemical Properties]] of matter due to new arrangement
+	- ex:
+		- [[Burning]]
+		- [[Oxidation]]
+		- $\text{Fe}_5 + \text{O}_2 = \text{Fe}_2\text{O}_3$
+	- possible signs include:
+		- $\Delta$ Change in [[Color]]
+		- [[Gas]] emitted (ex: bubbles)
+		- $\Delta$ Change in [[Energy]]
+			- Release ([[Exothermic Reaction]])
+			- Absorb ([[Endothermic Reaction]])
+		- $\Delta$ Change in [[Mass]]
+		- [[Precipitation]]

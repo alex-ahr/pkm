@@ -1,0 +1,15 @@
+---
+TAGS:
+  - TYPE/atom
+  - STATUS/todo
+---
+- ex:
+	- [[Color]]
+	- [[Odor]]
+	- [[Texture]]
+	- [[State Of Matter]]
+	- [[Melting Point]]
+	- [[Solubility]]
+	- [[Density]]
+	- [[Mass]]
+	- [[Volumr]]

@@ -1,0 +1,5 @@
+---
+TAGS:
+  - TYPE/atom
+  - STATUS/
+---

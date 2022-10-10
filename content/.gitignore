@@ -1,0 +1,6 @@
+# '.obsidian/workspace' tells Obsidian what windows to have open. Having it sync across
+# different devices would cause headaches (merge conflicts)
+.obsidian/workspace
+
+# If trash is enabled, it will stay on the local device
+.trash

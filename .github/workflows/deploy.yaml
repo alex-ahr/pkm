@@ -13,6 +13,19 @@ jobs:
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+    - name: clone submodule
+      uses: actions/checkout@v2
+      with:
+        repository: alex-ahr/vault
+        path: content
+        ssh-key: ${{ secrets.PRIVATE_KEY }}
+        persist-credentials: true
+
+    - name: checkout submodule
+      run: |
+        git submodule init
+        git submodule update
+
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.18
         with:
@@ -36,4 +49,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: quartz.jzhao.xyz
+          cname: alex-ahr.github.io/pkm

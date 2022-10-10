@@ -1,0 +1,15 @@
+---
+TAGS:
+  - TYPE/todo
+  - STATUS/fluid
+---
+- [ ] Vault guides
+	- [ ] tags
+	- [ ] metadata
+- [ ] Rename tags for classes
+- [ ] theme
+- [ ] hub note
+- [ ] compendium templates
+- [ ] Give attachments descriptive names
+- [ ] Fix school tags
+- [ ] Use `TODO::` to mark what is needed to do, then clarify with a callout

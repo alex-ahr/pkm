@@ -1,0 +1,6 @@
+---
+TAGS:
+  - TYPE/
+  - STATUS/
+  - compendium/
+---
