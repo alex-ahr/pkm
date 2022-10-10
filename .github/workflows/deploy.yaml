@@ -18,13 +18,15 @@ jobs:
         with:
           repository: alex-ahr/vault
           path: content
-          ssh-key: ${{ secrets.PERSONAL_KEY }}
+          token: ${{ secrets.PERSONAL_KEY }}
           persist-credentials: true
 
       - name: checkout submodule
         run: |
+          cd content
           git submodule init
           git submodule update
+          cd ..
 
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.18
