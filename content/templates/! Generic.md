@@ -1,5 +1,0 @@
----
-TAGS:
-  - TYPE/
-  - STATUS/
----
