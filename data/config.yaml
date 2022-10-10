@@ -11,7 +11,7 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
-GitHubLink: https://github.com/alex-ahr/vault/tree/
+GitHubLink: https://github.com/alex-ahr/vault/tree/main/
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
