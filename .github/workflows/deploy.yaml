@@ -18,7 +18,7 @@ jobs:
         with:
           repository: alex-ahr/vault
           path: content
-          ssh-key: ${{ secrets.PRIVATE_KEY }}
+          ssh-key: ${{ secrets.PERSONAL_KEY }}
           persist-credentials: true
 
       - name: checkout submodule
