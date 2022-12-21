@@ -41,7 +41,6 @@ def strip_list_nonmd(files: list[str]) -> list[str]:
     
     return files
 
-shutil.rmtree(TMP)
 shutil.copytree(SOURCE, TMP)
 
 files: list[str] = strip_list_nonmd(reclsdir(TMP, removeprefix=False))
