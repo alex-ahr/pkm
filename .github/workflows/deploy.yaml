@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: clone submodule
         uses: actions/checkout@v2
@@ -25,8 +25,13 @@ jobs:
         run: |
           cd content
           git submodule init
-          git submodule update
+          git submodule update --remote
           cd ..
+      
+      - name: Preprocess vault
+        run: |
+          chmod +x ./build.py
+          ./build.py
 
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.18
@@ -50,5 +55,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: master  # deploying branch
+          publish_branch: master # deploying branch
           cname: alex-ahr.github.io/pkm
