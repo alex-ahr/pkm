@@ -28,9 +28,12 @@ jobs:
           git submodule update --remote
           cd ..
         
-      - name: Install dependencies
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+        
+      - name: Install cargodependencies
         run: |
-          python3 --version
           cargo install obsidian-export
       
       - name: Preprocess vault
